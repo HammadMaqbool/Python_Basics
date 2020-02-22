@@ -10,7 +10,7 @@ print(contents_we_read1)
 file_pointer1.close()
 
 #Read line one by one readline() and readlines() are two different functions
-file_pointer2 = open("Readme.txt","r")
+file_pointer2 = open("Readme.txt", "r")
 print(file_pointer2.readline(),end="")
 print(file_pointer2.readline())
 file_pointer2.close()
