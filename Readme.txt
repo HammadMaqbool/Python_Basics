@@ -1,3 +1,3 @@
-This is the readme file
-This is the file we want to read from the Filehandling
-this is the 3rd line of the file
+Hammad is a good boy this is the line I am writing using write functionHammad is a good boy this is the line I am writing using write functionHammad is a good boy this is the line I am writing using write function
+Hammad is a good boy this is the line I am writing using write function
+Hammad is a good boy this is the line I am writing using write functionThis is new line with r+
