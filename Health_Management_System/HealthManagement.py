@@ -39,7 +39,7 @@ if lock_read_choice == "lock" or lock_read_choice=="Lock" or lock_read_choice=="
         DateToday = DateTme_function()
         fun_food_lock(get_user_name,food_choice,DateToday)
     elif lock_choice == "exercise" or lock_choice=="Exercise" or lock_choice=="EXERCISE":
-        exercice_choice = print("What Exercise you did today "+get_user_name )
+        exercice_choice = input("What Exercise you did today "+get_user_name )
         DateToday = DateTme_function()
         fun_exercise_lock(get_user_name,exercice_choice,DateToday)
 
