@@ -6,11 +6,11 @@ def fun_food_lock(p_name,food, DateToday):
 
 
 def fun_exercise_lock(e_name, ex_done, DateToday):
-    exercise_file_pointer = open("e_"+e_name.lower()+".txt", "w")
+    exercise_file_pointer = open("e_"+e_name.lower()+".txt", "a")
     exercise_file_pointer.write(str(DateToday) + "\n" + ex_done + " \n")
     exercise_file_pointer.close()
 
-def fun_food_read(user_name):
+# def fun_food_read(user_name):
     food_read_pointer = open("f_"+user_name.lower()+".txt", "r")
     content_read = food_read_pointer.read()
     food_read_pointer.close()
