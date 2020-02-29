@@ -19,3 +19,8 @@ Hammad.Total_number_of_Students =5  #it will override all values if I comment it
 print(Hammad.Total_number_of_Students)
 Hammad.Changer_number_of_Students(95)
 print(Hammad.Total_number_of_Students)
+
+'''
+NOTE: We can call the class method with the help of class
+    and with the help of instance of the class.
+'''
