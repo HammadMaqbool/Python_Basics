@@ -3,6 +3,7 @@ import time
 import mutagen.mp3
 import datetime
 
+
 var_time_to_drink = time.time()
 var_time_to_ex =  time.time()
 var_time_to_eye = time.time()
