@@ -24,4 +24,6 @@ Hammad.PhoneNumber = 341
 Hammad.Address = "Kotli"
 Hammad.Age = 28
 
-
+print(Hammad.ToPrintWelcome("Hammad"))
+print(Hammad.Get_Personaldetails()) # The method is inherited from the person class
+print(Hammad.get_EmployeeDetaisl()) # direct from the employee class
